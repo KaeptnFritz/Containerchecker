@@ -1,0 +1,11 @@
+{
+  "ventilation": {
+    "CLOSED": [
+      "CLOSED",
+      "CLOSED DEHUMIDITY",
+      "CLOSED HUMIDITY",
+      "CLOSED DEHUM MODE",
+      "CLS"
+    ]
+  }
+}

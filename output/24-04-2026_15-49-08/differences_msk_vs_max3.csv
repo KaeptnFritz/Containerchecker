@@ -1,0 +1,2 @@
+container,temperature_A,ventilation_A,drainholes_A,source_A,page_A,ventilation_norm_A,drainholes_norm_A,temperature_B,ventilation_B,drainholes_B,source_B,page_B,ventilation_norm_B,drainholes_norm_B,_merge,temp_diff,vent_diff,drain_diff
+MNBU3688225,3.5,15.00,CLOSED,MSK_ReeferManifest_FinalChangesToLoadListDeadline_IB7612E612EEGPSDTM.pdf,3.0,15,CLOSED,4.0,015,,REEFERS EGPSD 27.03.2026.pdf,1.0,15,,both,True,False,False
