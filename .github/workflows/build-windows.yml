@@ -1,15 +1,4 @@
-      - name: Build EXE
-        run: |
-          pyinstaller --onefile --windowed --name ContainerChecker --add-data "rules.json;." gui.py
-
-      - name: List dist folder
-        run: dir dist
-
-      - name: Upload EXE
-        uses: actions/upload-artifact@v4
-        with:
-          name: ContainerChecker-Windows
-          path: dist/*name: Build Windows EXE
+name: Build Windows EXE
 
 on:
   workflow_dispatch:
@@ -38,8 +27,11 @@ jobs:
         run: |
           pyinstaller --onefile --windowed --name ContainerChecker --add-data "rules.json;." gui.py
 
+      - name: List dist folder
+        run: dir dist
+
       - name: Upload EXE
         uses: actions/upload-artifact@v4
         with:
           name: ContainerChecker-Windows
-          path: dist/ContainerChecker.exe
+          path: dist/*
