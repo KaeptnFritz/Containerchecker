@@ -1,4 +1,4 @@
-from pathlib import Path
+"""from pathlib import Path
 import pdfplumber
 import pandas as pd
 
@@ -15,4 +15,4 @@ with pdfplumber.open(pdf_file) as pdf:
     for table_index, table in enumerate(tables, start=1):
         print(f"\n--- Tabelle {table_index} ---")
         for row_num, row in enumerate(table[:10], start=1):
-            print(f"Zeile {row_num}: {len(row)} Spalten -> {row}")
+            print(f"Zeile {row_num}: {len(row)} Spalten -> {row}")"""
