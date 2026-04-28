@@ -2,8 +2,8 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from pathlib import Path
 from pathlib import Path
-from ContainerChecker.cc_workflow import open_folder
-from ContainerChecker.cc_workflow import run_multi_comparison
+from cc_workflow import open_folder
+from cc_workflow import run_multi_comparison
 
 base_dir = Path.home() / "ContainerChecker"
 

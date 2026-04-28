@@ -1,5 +1,5 @@
 from pathlib import Path
-from ContainerChecker.cc_workflow import run_comparison
+from cc_workflow import run_comparison
 
 
 if __name__ == "__main__":
